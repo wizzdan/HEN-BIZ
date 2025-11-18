@@ -1,0 +1,108 @@
+import { Product, Testimonial, BlogPost } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'p1',
+    name: 'Large Brown Eggs - Full Tray',
+    shortDescription: '30 premium, farm-fresh large brown eggs.',
+    description: 'Our signature large brown eggs are collected daily from free-roaming layers. Rich golden yolks, perfect for baking or a hearty breakfast. Packed in eco-friendly recycled pulp trays.',
+    price: 450,
+    image: 'https://picsum.photos/seed/eggs1/600/600',
+    category: 'Tray',
+    size: 'Large',
+    rating: 4.9,
+    reviews: 128,
+    inStock: true,
+    isNew: false,
+  },
+  {
+    id: 'p2',
+    name: 'Medium Brown Eggs - Full Tray',
+    shortDescription: '30 fresh medium brown eggs. Great value.',
+    description: 'Perfect for everyday cooking. These medium-sized eggs offer the same premium taste and quality at an accessible price point.',
+    price: 350,
+    image: 'https://picsum.photos/seed/eggs2/600/600',
+    category: 'Tray',
+    size: 'Medium',
+    rating: 4.7,
+    reviews: 85,
+    inStock: true,
+  },
+  {
+    id: 'p3',
+    name: 'Large Brown Eggs - Half Tray',
+    shortDescription: '15 premium large brown eggs.',
+    description: 'Ideal for smaller households or individuals. Enjoy fresh farm eggs without the bulk.',
+    price: 240,
+    image: 'https://picsum.photos/seed/eggs3/600/600',
+    category: 'Half-Tray',
+    size: 'Large',
+    rating: 4.8,
+    reviews: 42,
+    inStock: true,
+  },
+  {
+    id: 'p4',
+    name: 'Jumbo Breakfast Eggs',
+    shortDescription: 'Extra large eggs for the ultimate breakfast.',
+    description: 'Hand-selected for size. Our Jumbo eggs are the cream of the crop, ensuring a substantial and delicious meal.',
+    price: 550,
+    image: 'https://picsum.photos/seed/eggs4/600/600',
+    category: 'Specialty',
+    size: 'Jumbo',
+    rating: 5.0,
+    reviews: 15,
+    inStock: false,
+  },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 't1',
+    name: 'Sarah N.',
+    role: 'Home Baker',
+    content: 'The yolks are so vibrant and orange! My cakes have never tasted better. Delivery to Kilimani was super fast.',
+    avatar: 'https://picsum.photos/seed/user1/100/100',
+  },
+  {
+    id: 't2',
+    name: 'David O.',
+    role: 'Cafe Owner',
+    content: 'We switched to Golden Yolk for our breakfast menu. Customers actually noticed the difference in the poached eggs.',
+    avatar: 'https://picsum.photos/seed/user2/100/100',
+  },
+  {
+    id: 't3',
+    name: 'Mama Wanjiku',
+    role: 'Mother of 3',
+    content: 'I love the subscription feature. I never run out of eggs for the kids breakfast anymore.',
+    avatar: 'https://picsum.photos/seed/user3/100/100',
+  },
+];
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'b1',
+    title: 'Why Brown Eggs Taste Better',
+    excerpt: 'Exploring the myths and facts behind shell color and nutritional value.',
+    date: 'Oct 12, 2023',
+    image: 'https://picsum.photos/seed/farm5/600/400',
+    category: 'Nutrition',
+  },
+  {
+    id: 'b2',
+    title: 'Meet Our Happy Hens',
+    excerpt: 'A look inside our free-range coops and how we ensure animal welfare.',
+    date: 'Sep 28, 2023',
+    image: 'https://picsum.photos/seed/chicken2/600/400',
+    category: 'Farm Life',
+  },
+  {
+    id: 'b3',
+    title: 'Perfect Soft Boiled Eggs',
+    excerpt: 'The definitive guide to getting that jammy yolk every single time.',
+    date: 'Sep 15, 2023',
+    image: 'https://picsum.photos/seed/cooking/600/400',
+    category: 'Recipes',
+  },
+];
